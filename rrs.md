@@ -24,8 +24,10 @@ Keys are either OPTIONAL or REQUIRED. If a key is OPTIONAL it may or may not be 
 </tr>
 <tr>
   <th>RRS-Status</th>
-  <td>Specifies a command to run in order to check if the app is currently subscribed to that feed. The exit status should be 0 if it is, non-zero if not. This command MUST neither open nor close the app, and should incur minimal performance overhead.</td>
-  <td>string</td><td>YES</td>
+  <td><p>Specifies a command to run in order to check if the app is currently subscribed to that feed. The exit status should be 0 if it is, non-zero if not. This command MUST neither open nor close the app, and should incur minimal performance overhead.</p>
+  
+  <p>If this is not specified feed providing apps cannot indicate whether you are already subscribed to the feed, and will likely assume not.</p></td>
+  <td>string</td><td>NO</td>
 </tr>
 <tr>
   <th>RRS-Unsubscribe</th>
