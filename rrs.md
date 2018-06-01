@@ -10,6 +10,8 @@ RRS extends .desktop files with extra keys specific to the field of feedreaders.
 ## Subscribing to feeds
 The semantics of opening a webfeed in a feedreader MUST have the effect of subscribing to that feed. That is the `Exec` entry is what should be used for subscribing to a feed.
 
+If you're already subscribed, this should have no effect.
+
 ## Extra .desktop Keys
 Keys are either OPTIONAL or REQUIRED. If a key is OPTIONAL it may or may not be present in the file. However, if it isn't, the implementation of the standard should not blow up, it must provide some sane defaults.
 
