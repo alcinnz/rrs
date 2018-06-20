@@ -42,7 +42,7 @@ Keys are either OPTIONAL or REQUIRED. If a key is OPTIONAL it may or may not be 
 <tr>
   <th>RRS-HTML</th>
   <td>Specifies an XPath expression that should consistantly be present in the description elements in order for this application to be offered as a feedreader for a given feed.</td>
-  <td>string(s)</td>
+  <td>string(s)</td><td>NO</td>
 </tr>
 </table>
 
