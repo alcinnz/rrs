@@ -47,3 +47,11 @@ Keys are either OPTIONAL or REQUIRED. If a key is OPTIONAL it may or may not be 
 </table>
 
 The `Status`, & `Unsubscribe` keys MUST be formatted similarly to `.desktop` files' `Exec` key, except the only supported field codes are `%u` & `%U`. These have the same meaning.
+
+## References
+
+* [Desktop Entry Spec](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.1.html)
+* [MIME Apps Spec](https://www.freedesktop.org/wiki/Specifications/mime-apps-spec/)
+* [XPath](https://www.w3.org/TR/2017/REC-xpath-31-20170321/)
+* [RSS](https://cyber.harvard.edu/rss/rss.html)
+* [Atom](https://tools.ietf.org/html/rfc4287)
