@@ -39,6 +39,11 @@ Keys are either OPTIONAL or REQUIRED. If a key is OPTIONAL it may or may not be 
   <td>Specifies MIME types that should be linked to by the webfeed, using the RSS `enclosure` element or the ATOM `content` element.</td>
   <td>string(s)</td><td>NO</td>
 </tr>
+<tr>
+  <th>RRS-HTML</th>
+  <td>Specifies an XPath expression that should consistantly be present in the description elements in order for this application to be offered as a feedreader for a given feed.</td>
+  <td>string(s)</td>
+</tr>
 </table>
 
 The `Status`, & `Unsubscribe` keys MUST be formatted similarly to `.desktop` files' `Exec` key, except the only supported field codes are `%u` & `%U`. These have the same meaning.
